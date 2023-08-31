@@ -112,6 +112,7 @@ class EpsillaExperiment(Experiment):
         for combo in itertools.product(*self.query_collection_params.values()):
             self.argument_combos.append(dict(zip(self.query_collection_params.keys(), combo)))
 
+
     def run(self, runs: int = 1):
         input_args = []  # This will be used to construct DataFrame table
         results = []

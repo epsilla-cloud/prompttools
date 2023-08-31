@@ -58,3 +58,5 @@ Vector DBs
 .. autoclass:: WeaviateExperiment
 
 .. autoclass:: LanceDBExperiment
+
+.. autoclass:: EpsillaExperiment
